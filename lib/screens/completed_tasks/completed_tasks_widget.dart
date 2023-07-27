@@ -99,13 +99,13 @@ class _CompletedTasksWidgetState extends State<CompletedTasksWidget>
         ),
       ),
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).white,
+        backgroundColor: FlutterFlowTheme.of(context).info,
         automaticallyImplyLeading: false,
         title: Text(
           'Completed Tasks',
           style: FlutterFlowTheme.of(context).displaySmall.override(
                 fontFamily: 'Outfit',
-                color: FlutterFlowTheme.of(context).info,
+                color: FlutterFlowTheme.of(context).white,
               ),
         ),
         actions: [],

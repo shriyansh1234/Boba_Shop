@@ -106,8 +106,9 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                       'Task Manager',
                       style: FlutterFlowTheme.of(context).titleMedium.override(
                             fontFamily: 'Outfit',
-                            fontSize: 36.0,
+                            fontSize: 45.0,
                             fontWeight: FontWeight.w500,
+                            color: FlutterFlowTheme.of(context).info
                           ),
                     ),
                   ],
@@ -135,7 +136,7 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                                 },
                                 text: 'Register',
                                 options: FFButtonOptions(
-                                  width: 200.0,
+                                  width: 225.0,
                                   height: 50.0,
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 0.0),
@@ -165,7 +166,7 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                               },
                               text: 'Login',
                               options: FFButtonOptions(
-                                width: 200.0,
+                                width: 225.0,
                                 height: 50.0,
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),

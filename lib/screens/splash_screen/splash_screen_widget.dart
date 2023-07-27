@@ -160,11 +160,44 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                               ).animateOnPageLoad(
                                   animationsMap['buttonOnPageLoadAnimation1']!),
                             ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 2.0, 0.0, 20.0),
+                              child: FFButtonWidget(
+                                onPressed: () async {
+                                  context.pushNamed('Login');
+                                },
+                                text: 'Login',
+                                options: FFButtonOptions(
+                                  width: 225.0,
+                                  height: 50.0,
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 0.0),
+                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 0.0),
+                                  color: FlutterFlowTheme.of(context).white,
+                                  textStyle: FlutterFlowTheme.of(context)
+                                      .titleSmall
+                                      .override(
+                                        fontFamily: 'Outfit',
+                                        color: FlutterFlowTheme.of(context).info,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                  elevation: 3.0,
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(8.0),
+                                ),
+                              ).animateOnPageLoad(
+                                  animationsMap['buttonOnPageLoadAnimation2']!),
+                            ),
                             FFButtonWidget(
                               onPressed: () async {
-                                context.pushNamed('Login');
+                                context.pushNamed('Shop');
                               },
-                              text: 'Login',
+                              text: 'Shop',
                               options: FFButtonOptions(
                                 width: 225.0,
                                 height: 50.0,
@@ -172,23 +205,23 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                                     0.0, 0.0, 0.0, 0.0),
                                 iconPadding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: FlutterFlowTheme.of(context).white,
-                                textStyle: FlutterFlowTheme.of(context)
-                                    .titleSmall
-                                    .override(
-                                      fontFamily: 'Outfit',
-                                      color: FlutterFlowTheme.of(context).info,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                elevation: 3.0,
-                                borderSide: BorderSide(
-                                  color: Colors.transparent,
-                                  width: 1.0,
-                                ),
+                                color: FlutterFlowTheme.of(context).info,
+                                  textStyle: FlutterFlowTheme.of(context)
+                                      .titleSmall
+                                      .override(
+                                        fontFamily: 'Outfit',
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                  elevation: 3.0,
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1.0,
+                                  ),
                                 borderRadius: BorderRadius.circular(8.0),
                               ),
                             ).animateOnPageLoad(
-                                animationsMap['buttonOnPageLoadAnimation2']!),
+                                animationsMap['buttonOnPageLoadAnimation1']!),
                           ],
                         ),
                       ),

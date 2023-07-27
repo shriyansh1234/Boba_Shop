@@ -272,6 +272,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "google_nav_bar",
+      "rootUri": "file:///C:/Users/Shraya/AppData/Local/Pub/Cache/hosted/pub.dev/google_nav_bar-5.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "google_sign_in",
       "rootUri": "file:///C:/Users/Shraya/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in-6.0.2",
       "packageUri": "lib/",
@@ -734,7 +740,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-27T17:25:41.491747Z",
+  "generated": "2023-07-27T19:41:17.935902Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }

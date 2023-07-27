@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:todo/boba_shop_user/pages/test.dart';
 
 import '/backend/backend.dart';
 
@@ -10,7 +11,7 @@ import '../../../auth/base_auth_user_provider.dart';
 
 import '../../../index.dart';
 import '../../../main.dart';
-
+import 'package:todo/boba_shop_user/pages/home_page.dart';
 import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
@@ -84,6 +85,15 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, _) =>
               appStateNotifier.loggedIn ? NavBarPage() : SplashScreenWidget(),
         ),
+        // *******************
+        // gorouter route to join the shop button with the homescreen
+        // its set on test as it theres runtime errors if set to Boba_Home_Page
+        // ********************
+        FFRoute(
+          name: 'Shop',
+          path: '/boba_shop_user/test',
+          builder: (context, params) => test(),
+        ),
         FFRoute(
           name: 'SplashScreen',
           path: '/splashScreen',
@@ -94,6 +104,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/login',
           builder: (context, params) => LoginWidget(),
         ),
+
         FFRoute(
           name: 'myTasks',
           path: '/myTasks',

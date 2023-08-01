@@ -13,6 +13,8 @@ class Boba_Home_Page extends StatefulWidget {
 }
 
 class _HomePageState extends State<Boba_Home_Page> {
+
+  
   // navigate bottom bar
   int _selectedIndex = 0;
   void navigateBottomBar(int newIndex) {
@@ -41,6 +43,7 @@ class _HomePageState extends State<Boba_Home_Page> {
       bottomNavigationBar: MyBottomBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
+      // add drawer again
       drawer: MyDrawer(),
       body: _pages[_selectedIndex],
     );

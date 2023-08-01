@@ -5,12 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
-
+import 'package:provider/provider.dart';
 import 'backend/firebase/firebase_config.dart';
 import '_add/extra/theme.dart';
 import '_add/extra/util.dart';
-
+import 'boba_shop_user/pages/home_page.dart';
 import '_add/extra/nav/nav.dart';
+import 'boba_shop_user/models/shop.dart';
+import 'boba_shop_user/pages/about_page.dart';
 import 'index.dart';
 
 void main() async {
@@ -20,7 +22,12 @@ void main() async {
 
   await FlutterFlowTheme.initialize();
 
-  runApp(MyApp());
+ runApp(
+    ChangeNotifierProvider(
+      create: (_) => BubbleTeaShop(),
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
@@ -68,7 +75,7 @@ class _MyAppState extends State<MyApp> {
         _themeMode = mode;
         FlutterFlowTheme.saveThemeMode(mode);
       });
-
+      
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(

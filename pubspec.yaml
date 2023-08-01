@@ -85,6 +85,9 @@ dependencies:
   mime_type: ^1.0.0
   equatable: ^2.0.5
   google_nav_bar: ^5.0.6
+  beamer: ^1.5.6
+  geolocator: ^9.0.2
+  http: ^0.13.6
 
 dev_dependencies:
   flutter_launcher_icons: 0.12.0

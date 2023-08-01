@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:todo/_add/extra/util.dart';
+import 'package:todo/boba_shop_user/pages/about_page.dart';
 import '../constants/const.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -19,7 +21,7 @@ class MyDrawer extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(50.0),
                 child: Image.asset(
-                  'lib/images/milk_tea.png',
+                  'lib/boba_shop_user/images/milk_tea.png',
                   height: 160,
                 ),
               ),
@@ -30,7 +32,7 @@ class MyDrawer extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   // go to home page
-                  Navigator.pop(context);
+                  context.pop();
                 },
                 child: const Padding(
                   padding: EdgeInsets.only(left: 25.0),
@@ -51,7 +53,7 @@ class MyDrawer extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   // go to about page
-                  Navigator.popAndPushNamed(context, '/about');
+                  context.pushNamed('AboutPage');
                 },
                 child: const Padding(
                   padding: EdgeInsets.only(left: 25.0),
@@ -72,10 +74,6 @@ class MyDrawer extends StatelessWidget {
 
           // logout tile
           GestureDetector(
-            onTap: () {
-              // go to login page
-              Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
-            },
             child: const Padding(
               padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
               child: ListTile(

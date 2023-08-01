@@ -4,9 +4,10 @@ import '../components/drink_tile.dart';
 import '../models/drink.dart';
 import '../models/shop.dart';
 import 'order_page.dart';
+import 'package:go_router/go_router.dart'; 
 
 class ShopPage extends StatefulWidget {
-  const ShopPage({super.key});
+  const ShopPage();
 
   @override
   State<ShopPage> createState() => _ShopPageState();
@@ -15,7 +16,7 @@ class ShopPage extends StatefulWidget {
 class _ShopPageState extends State<ShopPage> {
   // go to order page
   void goToOrderPage(Drink drink) {
-    Navigator.push(
+  Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) => OrderPage(

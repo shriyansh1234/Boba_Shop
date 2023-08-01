@@ -195,7 +195,7 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
                             ),
                             FFButtonWidget(
                               onPressed: () async {
-                                context.pushNamed('Shop');
+                                context.pushNamed('Weather');
                               },
                               text: 'Shop',
                               options: FFButtonOptions(

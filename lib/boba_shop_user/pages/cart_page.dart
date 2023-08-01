@@ -15,7 +15,7 @@ CART PAGE
 */
 
 class CartPage extends StatefulWidget {
-  const CartPage({super.key});
+  const CartPage();
 
   @override
   State<CartPage> createState() => _CartPageState();

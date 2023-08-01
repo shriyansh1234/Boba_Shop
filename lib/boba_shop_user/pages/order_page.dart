@@ -45,7 +45,6 @@ class _OrderPageState extends State<OrderPage> {
 
     // direct user back to shop page
     Navigator.pop(context);
-
     // let user know it has been successfully added
     showDialog(
       context: context,

@@ -18,12 +18,12 @@ class AboutPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'This app was designed and coded by Mitch Koko',
+              'This app was designed and coded by Shray Tripathi',
               style: TextStyle(color: Colors.grey[700]),
             ),
             const SizedBox(height: 25),
             Text(
-              'youtube.com/mitchkoko',
+              'HEYY',
               style: TextStyle(
                   color: Colors.grey[800], fontWeight: FontWeight.bold),
             ),

@@ -8,35 +8,35 @@ class BubbleTeaShop extends ChangeNotifier {
     Drink(
       name: "Pearl Milk Tea",
       price: "4.80",
-      imagePath: "lib/images/milk_tea.png",
+      imagePath: "lib/boba_shop_user/images/milk_tea.png",
     ),
 
     // taro tea
     Drink(
       name: "Taro Milk Tea",
       price: "5.20",
-      imagePath: "lib/images/taro_tea.png",
+      imagePath: "lib/boba_shop_user/images/taro_tea.png",
     ),
 
     // green tea
     Drink(
       name: "Green Tea",
       price: "6.00",
-      imagePath: "lib/images/green_tea.png",
+      imagePath: "lib/boba_shop_user/images/green_tea.png",
     ),
 
     // cream tea
     Drink(
       name: "Cream Tea",
       price: "7.00",
-      imagePath: "lib/images/cream_tea.png",
+      imagePath: "lib/boba_shop_user/images/cream_tea.png",
     ),
 
     // choc tea
     Drink(
       name: "Choco Tea",
       price: "5.50",
-      imagePath: "lib/images/choc_tea.png",
+      imagePath: "lib/boba_shop_user/images/choc_tea.png",
     ),
   ];
 

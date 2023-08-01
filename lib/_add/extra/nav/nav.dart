@@ -3,8 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:todo/boba_shop_user/pages/about_page.dart';
+import 'package:todo/boba_shop_user/pages/order_page.dart';
 import 'package:todo/boba_shop_user/pages/test.dart';
 
+import '../../../boba_shop_user/pages/cart_page.dart';
+import '../../../boba_shop_user/pages/shop_page.dart';
 import '/backend/backend.dart';
 
 import '../../../auth/base_auth_user_provider.dart';
@@ -73,7 +77,7 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
-      initialLocation: '/',
+      initialLocation: '/splashScreen',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
@@ -90,10 +94,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         // its set on test as it theres runtime errors if set to Boba_Home_Page
         // ********************
         FFRoute(
-          name: 'Shop',
+          name: 'Weather',
           path: '/boba_shop_user/test',
-          builder: (context, params) => test(),
+          builder: (context, params) =>   test(),
         ),
+        FFRoute(
+          name: 'Cart',
+          path: '/boba_shop_user/cart_page',
+          builder: (context, params) => CartPage(),
+        ),
+      
         FFRoute(
           name: 'SplashScreen',
           path: '/splashScreen',
@@ -155,9 +165,25 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'ChangePassword',
           path: '/changePassword',
           builder: (context, params) => ChangePasswordWidget(),
-        )
+        ),
+        FFRoute(
+          name: 'BobaHome',
+          path: '/boba_shop_user/home_page',
+          builder: (context, params) => Boba_Home_Page(),
+        ),
+        FFRoute(
+          name: 'BobaShop',
+          path: '/boba_shop_user/shop_page',
+          builder: (context, params) => ShopPage(),
+        ),
+         FFRoute(
+          name: 'AboutPage',
+          path: '/boba_shop_user/about_page',
+          builder: (context, params) => AboutPage(),
+        ),
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
+    
 
 extension NavParamExtensions on Map<String, String?> {
   Map<String, String> get withoutNulls => Map.fromEntries(
@@ -336,7 +362,6 @@ class FFRoute {
           final child = appStateNotifier.loading
               ? Container(
                   color: Colors.transparent,
-                 
                 )
               : page;
 

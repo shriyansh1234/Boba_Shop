@@ -4,10 +4,8 @@ import 'package:todo/backend/api_requests/weather/data_service.dart';
 import 'package:todo/backend/api_requests/weather/models.dart';
 import 'package:todo/_add/extra/theme.dart';
 import 'package:go_router/go_router.dart';
-import 'about_page.dart';
-import 'home_page.dart';
-import 'package:todo/boba_shop_user/models/shop.dart';
-import 'package:provider/provider.dart';
+import '../constants/const.dart';
+
 
 class test extends StatefulWidget {
   const test({super.key});
@@ -27,14 +25,18 @@ class _testState extends State<test> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.brown),
       home: Scaffold(
+        backgroundColor: backgroundColor,
         body: Center(
           child: Column(
+            
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // ignore: unnecessary_null_comparison
               if (_response != null)
                 Column(
                   children: [
+                    Text('The current temperature is:',
+                        style: TextStyle(fontSize: 20, color: Colors.white)),
                     Text(
                       '${_response?.tempInfo.temperature}°',
                       style: TextStyle(fontSize: 40, color: Colors.white),
@@ -49,25 +51,28 @@ class _testState extends State<test> {
                     controller: _cityTextController,
                     decoration: InputDecoration(
                         labelText: ' Please Enter Your City',
-                        labelStyle: TextStyle(color: Colors.white)),
+                        labelStyle: TextStyle(fontSize: 15, color: Colors.white)),
                     textAlign: TextAlign.center,
                     style: TextStyle(
+                      fontSize: 20,
                       color: Colors.white,
                     ),
                   ),
                 ),
               ),
-              ElevatedButton(onPressed: _search, child: Text('Search')),
+              ElevatedButton(
+                onPressed: _search,
+                child: Text('Search', style: TextStyle(fontSize: 15, color: Colors.white)),
+              ),
               FFButtonWidget(
                   text: 'Go to Shop',
                   onPressed: () async {
                     context.pushNamed('BobaHome');
                   },
-                  options: FFButtonOptions())
+                  options: FFButtonOptions(textStyle: TextStyle(fontSize: 15, color: Colors.white)))
             ],
           ),
         ),
-        backgroundColor: FlutterFlowTheme.of(context).primaryBlack,
       ),
     );
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo/_add/extra/util.dart';
 import 'package:todo/boba_shop_user/pages/about_page.dart';
 import '../constants/const.dart';
+import 'package:go_router/go_router.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -74,6 +75,10 @@ class MyDrawer extends StatelessWidget {
 
           // logout tile
           GestureDetector(
+            onTap: () {
+              // go to login page
+              context.pushNamed('SplashScreen');
+            },
             child: const Padding(
               padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
               child: ListTile(

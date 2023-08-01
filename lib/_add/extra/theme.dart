@@ -145,7 +145,7 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color success = const Color(0xFF04A24C);
   late Color warning = const Color(0xFFFCDC0C);
   late Color error = const Color(0xFFE21C3D);
-  late Color info = Color.fromARGB(255, 145, 104, 70);
+  late Color info = Colors.brown;
 
   late Color white = Color(0xFFFFFFFF);
   late Color lineColor = Color(0xFFDBE2E7);
@@ -250,7 +250,7 @@ class ThemeTypography extends Typography {
   String get titleSmallFamily => 'Outfit';
   TextStyle get titleSmall => GoogleFonts.getFont(
         'Outfit',
-        color: theme.secondaryText,
+        color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
@@ -292,7 +292,7 @@ class ThemeTypography extends Typography {
   String get bodySmallFamily => 'Outfit';
   TextStyle get bodySmall => GoogleFonts.getFont(
         'Outfit',
-        color: theme.secondaryText,
+        color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
       );
@@ -312,8 +312,8 @@ class DarkModeTheme extends FlutterFlowTheme {
   late Color alternate = const Color(0xFF262D34);
   late Color primaryText = const Color(0xFFFFFFFF);
   late Color secondaryText = const Color(0xFF95A1AC);
-  late Color primaryBackground = const Color(0xFF1A1F24);
-  late Color secondaryBackground = const Color(0xFF131619);
+  late Color primaryBackground = const Color.fromARGB(255, 186, 175, 162);
+  late Color secondaryBackground = const Color.fromARGB(255, 186, 175, 162);
   late Color accent1 = const Color(0xFFEEEEEE);
   late Color accent2 = const Color(0xFFE0E0E0);
   late Color accent3 = const Color(0xFF757575);
@@ -321,7 +321,7 @@ class DarkModeTheme extends FlutterFlowTheme {
   late Color success = const Color(0xFF04A24C);
   late Color warning = const Color(0xFFFCDC0C);
   late Color error = const Color(0xFFE21C3D);
-  late Color info = Color.fromARGB(255, 151, 88, 36);
+  late Color info = Colors.brown;
 
   late Color white = Color(0xFFFFFFFF);
   late Color lineColor = Color(0xFF262D34);

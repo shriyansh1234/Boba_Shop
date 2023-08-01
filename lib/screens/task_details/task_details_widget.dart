@@ -246,8 +246,7 @@ class _TaskDetailsWidgetState extends State<TaskDetailsWidget> {
                                         .headlineMedium
                                         .override(
                                           fontFamily: 'Outfit',
-                                          color:
-                                              FlutterFlowTheme.of(context).info,
+                                      
                                         ),
                                   ),
                                 ),

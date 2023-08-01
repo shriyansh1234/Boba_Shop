@@ -47,9 +47,11 @@ class _CartPageState extends State<CartPage> {
             // heading
             const Text(
               'Your Cart',
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.white,
+             style: TextStyle(
+                fontFamily: 'Outfit',
+                fontSize: 30,
+                fontWeight: FontWeight.w500 ,
+                color: Colors.brown,
               ),
             ),
 

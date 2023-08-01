@@ -38,8 +38,10 @@ class _ShopPageState extends State<ShopPage> {
             const Text(
               "Bubble Tea Shop",
               style: TextStyle(
-                fontSize: 20,
-                color: Colors.white,
+                fontFamily: 'Outfit',
+                fontSize: 30,
+                fontWeight: FontWeight.w500 ,
+                color: Colors.brown,
               ),
             ),
 

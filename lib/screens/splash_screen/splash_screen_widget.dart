@@ -82,12 +82,12 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget>
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).primaryBlack,
+      backgroundColor: const Color.fromARGB(255, 186, 175, 162),
       body: Container(
         width: MediaQuery.sizeOf(context).width * 1.0,
         height: MediaQuery.sizeOf(context).height * 1.0,
         decoration: BoxDecoration(
-          color: FlutterFlowTheme.of(context).primaryBlack,
+          color: const Color.fromARGB(255, 186, 175, 162),
         ),
         child: Padding(
           padding: EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 0.0),

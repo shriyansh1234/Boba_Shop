@@ -282,7 +282,7 @@ class _MyTasksWidgetState extends State<MyTasksWidget>
                                         ),
                                         offIcon: Icon(
                                           Icons.delete,
-                                          color: Colors.red,
+                                          color: Color.fromARGB(255, 145, 56, 51),
                                               
                                           size: 25.0,
                                         ),

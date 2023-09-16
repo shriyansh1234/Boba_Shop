@@ -25,7 +25,6 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 ## Weather API ## 
 
 ![Screenshot 2023-08-30 130718](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/1b1115a5-67a8-46d5-8dc0-45cfb40c87d0)
-
 ![Screenshot 2023-08-30 130638](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/84904c93-6fdd-4eb9-a9d8-563ed324b11b)
 
 ## Shop main screen ## 
@@ -49,8 +48,6 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 
 ![Screenshot 2023-08-30 130835](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/13d96142-1193-43e1-8624-ef3ee51cd530)
-
-
 ![Screenshot 2023-08-30 130854](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fa55e972-67dd-41b7-b013-95275e2c9ace)
 
 ## Final Cart Page ## 
@@ -61,23 +58,17 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 ![Screenshot 2023-08-30 131010](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/ef3c9731-3691-414d-8c63-982186bb2cda)
 
-
 ## Task Manager Info Screen ## 
-
 
 ![Screenshot 2023-08-30 131023](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/288b041e-0db1-4867-b3fc-107c5a04c8b3)
 
-
 ## Completed Tasks Page ## 
 
-
 ![Screenshot 2023-08-30 131036](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/9124ddce-a21c-4152-a52a-a4ed56dafd84)
-
 
 ## Add Task Widget ## 
 
 ![Screenshot 2023-08-30 131119](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/345cda10-d201-46d6-a5ba-aef4492ecb32)
-
 
 ## Cupertino Date/ Time Picker ## 
 
@@ -87,27 +78,21 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 ![Screenshot 2023-08-30 131154](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/956c764b-4a8e-4f8c-9953-aefb756deec2)
 
-
 ## Task Details with ZenQuotes API ## 
 
 ![Screenshot 2023-08-30 131218](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/64252d4c-6581-40f6-91f3-c398f366db4d)
 
-
 ## Edit Profile Page ## 
-
 
 ![Screenshot 2023-08-30 131646](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/42747d4a-cc8c-4ac8-9773-1ccc4852fe10)
 
 ## Change Password ## 
 
-
 ![Screenshot 2023-08-30 131659](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/25f69a86-a748-44b6-86d0-e54495a5fb41)
-
 
 ## Theme Change Options between light and dark theme ## 
 
 ![Screenshot 2023-08-30 131713](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fe7e8403-b470-4afd-92c0-b27d3bd9553f)
-
 ![Screenshot 2023-08-30 131727](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/67f9359f-773e-484a-af47-49aeeb00f956)
 
 

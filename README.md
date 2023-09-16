@@ -10,7 +10,7 @@ Additional Features: The app includes essential security measures such as email 
 
 Usability: Developed using Flutter, the Boba Shop app is a fully functional cross-platform application available on Android, iOS, and web platforms, ensuring wide accessibility and a seamless user experience.
 
-## Main Home Screen 
+## Main Home Screen ## 
 
 ![Screenshot 2023-08-30 130531](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/578b452a-374c-4423-867d-6b347bb34fef)
 

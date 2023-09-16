@@ -57,7 +57,7 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 ![Screenshot 2023-08-30 130909](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/c3db4e0b-5e19-40d1-890c-ab72fa38c2c6)
 
-####  Task Manager #### 
+#  Task Manager # 
 
 ![Screenshot 2023-08-30 131010](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/ef3c9731-3691-414d-8c63-982186bb2cda)
 

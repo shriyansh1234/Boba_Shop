@@ -24,8 +24,7 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 ## Weather API ## 
 
-![Screenshot 2023-08-30 130718](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/1b1115a5-67a8-46d5-8dc0-45cfb40c87d0)
-![Screenshot 2023-08-30 130638](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/84904c93-6fdd-4eb9-a9d8-563ed324b11b)
+![Screenshot 2023-08-30 130718](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/1b1115a5-67a8-46d5-8dc0-45cfb40c87d0) ![Screenshot 2023-08-30 130638](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/84904c93-6fdd-4eb9-a9d8-563ed324b11b)
 
 ## Shop main screen ## 
 
@@ -47,8 +46,7 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 ## Drink Selection Page ## 
 
 
-![Screenshot 2023-08-30 130835](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/13d96142-1193-43e1-8624-ef3ee51cd530)
-![Screenshot 2023-08-30 130854](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fa55e972-67dd-41b7-b013-95275e2c9ace)
+![Screenshot 2023-08-30 130835](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/13d96142-1193-43e1-8624-ef3ee51cd530) ![Screenshot 2023-08-30 130854](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fa55e972-67dd-41b7-b013-95275e2c9ace)
 
 ## Final Cart Page ## 
 
@@ -92,7 +90,6 @@ Usability: Developed using Flutter, the Boba Shop app is a fully functional cros
 
 ## Theme Change Options between light and dark theme ## 
 
-![Screenshot 2023-08-30 131713](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fe7e8403-b470-4afd-92c0-b27d3bd9553f)
-![Screenshot 2023-08-30 131727](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/67f9359f-773e-484a-af47-49aeeb00f956)
+![Screenshot 2023-08-30 131713](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/fe7e8403-b470-4afd-92c0-b27d3bd9553f) ![Screenshot 2023-08-30 131727](https://github.com/shriyansh1234/Boba_Shop/assets/41964583/67f9359f-773e-484a-af47-49aeeb00f956)
 
 

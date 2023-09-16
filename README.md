@@ -1,6 +1,6 @@
-### Authentication ###: The Boba Shop app features secure Firebase authentication, allowing users to create accounts, log in, and confidently sign up.
+### Authentication: The Boba Shop app features secure Firebase authentication, allowing users to create accounts, log in, and confidently sign up.
 
-###Boba Shop: Users can explore an extensive catalog of boba drinks, add them to their cart, and easily complete their orders through a seamless checkout process.
+### Boba Shop: Users can explore an extensive catalog of boba drinks, add them to their cart, and easily complete their orders through a seamless checkout process.
 
 ### Task Manager (CRUD Operations): The app's robust task manager enables administrators to efficiently create, read, update, and delete tasks for workers. It tracks task completion and provides detailed information about the worker, date, and time.
 
